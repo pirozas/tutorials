@@ -1,0 +1,23 @@
+
+NOTE: Supports only supports x64 bit
+
+apt update -y ; apt upgrade -y
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2" -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp
+
+
+useradd  -m   -s /bin/false tutorial -e 2023-12-31 
+
+printf "share\nshare" | sudo passwd tutorial
+
+
+vps_ip:1-65535@user:pas
+
+
+Subscribe :
+https://www.youtube.com/@Pirozatech
+
+
+
+
+
